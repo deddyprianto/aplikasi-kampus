@@ -1,0 +1,262 @@
+.navbar-brand,
+.nav-link {
+	color: grey !important;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	font-weight: 500;
+}
+
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+
+.jumbotron {
+	background-image: url(../img/padus.jpg);
+	background-size: cover;
+	background-position-y: 70%;
+	height: 540px;
+	text-align: center;
+	position: relative;
+
+}
+
+.jumbotron .container {
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	position: absolute;
+	bottom: 0;
+
+}
+
+.jumbotron .display-4 {
+	color: white;
+	margin-top: 150px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+	font-size: 40px;
+	margin-bottom: 30px;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+
+.container .info-panel {
+
+	background: white;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+	margin-top: -90px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+
+.container .info-panel p {
+	font-size: 10px;
+
+}
+
+.webkerja {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+.webkerja h4 {
+
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.webkerja h4 span {
+	font-weight: 500;
+
+}
+
+.webkerja p {
+	font-size: 15px;
+}
+
+.slide {
+	margin-bottom: 30px;
+}
+
+
+
+.testi p {
+	margin-top: 50px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+
+.testimonial .figure img {
+	width: 70px;
+	height: 70px;
+	margin: 0 13px 0;
+	opacity: 0.9;
+}
+
+.testimonial .figure img.utama {
+	width: 95px;
+	opacity: 1;
+}
+
+.testimonial .figure h5 {
+	font-size: 12px;
+	text-align: center;
+
+}
+
+.testimonial .figure p {
+	font-size: 10px;
+	text-align: center;
+}
+
+
+
+.saya h4 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.tulis-putih::-webkit-input-placeholder {
+	color: white;
+}
+
+.panah-kanan {
+	margin-left: 100px;
+	margin-top: 206px;
+}
+
+.panah-kiri {
+	margin-right: 100px;
+	margin-top: 206px;
+
+}
+
+.youtube {
+	margin-top: 100px;
+}
+
+@media(max-width:576px) {
+	.panah-mobile {
+		margin-right: 200px;
+	}
+
+	.panah-mobilee {
+		margin-left: 200px;
+	}
+
+
+
+}
+
+@media(min-width:992px) {
+	.nav-link {
+		margin-right: 30px;
+		text-transform: uppercase;
+	}
+
+	.navbar-brand,
+	.nav-link {
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+		font-weight: 700;
+
+	}
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid gray;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 3px;
+		margin-bottom: -6px;
+	}
+
+	.jumbotron {
+		height: 640px;
+		margin-top: -75px;
+
+	}
+
+	.jumbotron .display-4 {
+		font-size: 54px;
+	}
+
+	.container .info-panel p {
+		font-size: 12px;
+
+	}
+
+	.testi img {
+
+		margin-top: 90px;
+		width: 220px;
+
+	}
+
+	.webkerja {
+		text-align: left;
+
+	}
+
+	.testi img {
+		width: 700px;
+		margin-left: 50px;
+	}
+
+	.testi p {
+		margin-top: 250px;
+		font-style: italic;
+		font-weight: 500;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.testi span {
+		font-weight: 660;
+		font-size: 30px;
+	}
+
+	.panah-kanan {
+		margin-left: 700px;
+		margin-top: 350px;
+	}
+
+	.panah-kiri {
+		margin-right: 700px;
+		margin-top: 350px;
+	}
+
+	.panah-mobile {
+		margin-right: 200px;
+	}
+
+	.panah-mobilee {
+		margin-left: 200px;
+	}
+
+	.saya {
+		margin-top: 100px;
+	}
+}

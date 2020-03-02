@@ -1,0 +1,53 @@
+.text-bayangan {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.gambar-bapak {
+	border-radius: 20px;
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.6);
+}
+
+.garis {
+
+	top: 50%;
+	width: 14em;
+	margin: 0 auto;
+	border-right: 2px solid rgba(0, 0, 0, 0.75);
+	font-size: 100%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);
+	transform: translateX(-10%);
+	font-weight: bold;
+
+}
+
+.animasi-ketikan {
+	animation: ketikan 7s steps(20) 1s 2 normal both,
+		kedip 500ms steps(20) infinite normal;
+
+}
+
+@keyframes ketikan {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 15em;
+	}
+}
+
+@keyframes kedip {
+	from {
+		border-right-color: rgba(0, 0, 0, 0.75);
+	}
+
+	to {
+		border-right-color: transparent;
+
+	}
+}
